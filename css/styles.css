@@ -1,0 +1,14 @@
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+}
+
+footer {
+    padding: 20px 0;
+}

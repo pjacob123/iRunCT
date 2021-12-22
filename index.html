@@ -12,6 +12,7 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 
     <title>iRunCT</title>
 </head>
@@ -30,15 +31,15 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
         <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Services</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-            <a class="nav-item nav-link" href="#">Results/Registration</a>
+            <a class="nav-item nav-link" href="#services">Services</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+            <a class="nav-item nav-link" href="#results">Results/Schedule</a>
           </div>
     </div>
 </nav>
 
 <!--Hero-->
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center row-content">
         <h1 class="display-5 fw-bold">IRUNCT</h1>
         <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Meeting all of your race timing needs!</p>
@@ -53,20 +54,74 @@
 <div class="container">
 
 <!--Services-->
-    <div class="row">
-        <div class="col-sm-4 col-md-3">
-            <h2>Services</h2>
-        </div>
+    <div class="row row-content " id="services">
         <div class="col">
-
+            <h2>Services</h2>
+                <p>With decades of experience timing, racing, and managing events, our professionally trained staff understands what your event needs to be successful and keep people coming back year after year.</p>
+                <p>At IRUNCT there are no limits to what we can do. Let us know your race dreams, and we will bring them to life!</p>
+               
+<!--Tabs-->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#chip" role="tab" data-toggle="tab">Automatic Chip Timing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kiosk" role="tab" data-toggle="tab">Live Results Kiosk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#paSystem" role="tab" data-toggle="tab">PA System</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plusMore" role="tab" data-toggle="tab">Plus More!</a>
+                    </li>
+                </ul>
+<!--Tab content-->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade show active" id="chip">
+                        <h4>Automatic Chip Timing</h4>
+                        <p class="d-none d-sm-block">Instant, accurate results using state-of-the-art professional timing equipment!  Participants will have their result immediately crossing the finish line.</p>
+                        <p class="d-none d-sm-block">We always provide:</p>
+                            <ul>
+                                <li>Online Results</li>
+                                <li>Overall Printed Results</li>
+                                <li>Age Group Printed Results</li>
+                            </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="kiosk">
+                        <h4>Live Results Kiosk</h4>
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/kiosk.jpeg" width="297" height="424">
+                            </div>
+                            <div class="col">
+                                <p class="d-none d-sm-block">With our Results Kiosk participants quickly and easily type in their bib number, and instantly receive a finish receipt with their race statistics.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="paSystem">
+                        <h4>PA System</h4>
+                        <p class="d-none d-sm-block">Get your race participants going with a PA system to play music, make announcements, and get the "party" started!</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="plusMore">
+                        <p class="d-none d-sm-block">Rent these extra features to set your event apart from the rest...</p>
+                        <ul>
+                            <li>Finish Line Truss or Blowup Arch</li>
+                            <li>Television Displayed Results</li>
+                            <li>Result Kiosk</li>
+                            <li>Split Clocks</li>
+                            <li>Announcer Station</li>
+                            <li>And more!</li>
+                        </ul>
+                    </div>
+                </div>
         </div>
     </div>
 
-<!--Registration and Results-->
+<!--Schedule and Results-->
 
-    <div class="row">
+    <div class="row row-content id="results">
         <div class="col-sm-4 col-md-3">
-            <h2>Results/Registration</h2>
+            <h2>Results/Schedule</h2>
         </div>
         <div class="col">
 
@@ -75,7 +130,7 @@
 
 <!--Pictures/Reviews-->
 
-    <div class="row">
+    <div class="row row-content">
         <div class="col-sm-4 col-md-3">
             <h2>Reviews</h2>
         </div>
@@ -86,27 +141,18 @@
 </div>
 
 <!--Footer-->
-<footer>
+<footer class="bg-light" id="contact">
     <div class="container">
-        <div class="row">             
-            <div class="col-4 col-sm-2">
-                <h5>Links</h5>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Sites</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+        <div class="row align-items-center">             
             <div class="col-6 col-sm-5">
-                <h5>Social</h5>
-                <a href="https://www.instagram.com/irunctllc">Instagram</a>
-                <a href="https://www.facebook.com/iRunConnecticut/">Facebook</a>
-                <a href="https://www.youtube.com/channel/UCwNzzqCIBSUidlwkHx0Ph-w/featured">YouTube</a>
+                <h5>Follow us!</h5>
+                <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/irunctllc"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/iRunConnecticut/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCwNzzqCIBSUidlwkHx0Ph-w/featured"><i class="fa fa-youtube"></i></a>
             </div>
-            <div class="col-sm-4">
-                Tel: 1-860-612-8388<br />
-                Email: timing@irunct.com
+            <div class="col-sm-4 text-center">
+                <a role="button" class="btn btn-link" href="tel:+18606128388"><i class="fa fa-phone fa-lg text-primary"></i>1-860-612-8388</a><br />
+                <a role="button" class="btn btn-link" href="mailto:timing@irunct.com"><i class="fa fa-envelope fa-lg text-primary"></i>timing@irunct.com</a>
             </div>                
        </div>
     </div>
