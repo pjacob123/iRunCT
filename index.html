@@ -44,12 +44,82 @@
         <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Meeting all of your race timing needs!</p>
         <div class="d-grid gap-5 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3 m-4">Contact IRUNCT today!</button>
+            <button type="button" role="button" data-toggle="modal" data-target="#contactModal" class="btn btn-primary btn-lg px-4 gap-3 m-4">Contact IRUNCT today!</button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4 m-4">See your results</button>
         </div>
         </div>
     </div>
 </header>
+
+<!--Contact Info Modal-->
+<div id="contactModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <h3 class="modal-title">Get in touch!</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstName" class="col-md-2 col-form-label">Name</label>
+                            <div class="col-4">
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email Address</label>
+                            <div class="col-md-8">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="raceName" class="col-md-2 col-form-label">Race Name</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" id="raceName" name="raceName" placeholder="Race Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="raceDate" class="col-md-2 col-form-label">Race Date</label>
+                            <div class="col-md-8">
+                                <input type="date" class="form-control" id="raceDate" name="raceDate" />
+                            </div>
+                        </div>  
+                        <div class="form-group row">
+                            <label for="raceLocation" class="col-md-2 col-form-label">Race Location</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" id="raceLocation" name="raceLocation" placeholder="Race Location" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="numRunners" class="col-md-2 col-form-label">Estimated Number of Runners</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" id="numRunners" name="numRunners" placeholder="Estimated number of runners" />
+                            </div>
+                        </div> 
+                        <div class="form-group row"> 
+                            <label for="extraInfo" class="col-md-2 col-form-label">What else should we know about your race? (special needs/wants)</label>
+                            <div class="col-md-8">
+                                <textarea id="extraInfo" class="form-control" name="extraInfo" rows="8"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">Submit request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
 
 <div class="container">
 
