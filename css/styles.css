@@ -9,6 +9,11 @@
     border-bottom: 1px ridge;
 }
 
+#reviewCarousel{
+    height: 500px;
+    width: auto;
+    overflow: hidden;
+}
 .carousel-caption{
     position: relative;
     bottom: 0;
@@ -18,7 +23,9 @@
     padding: 20px;
 }
 
-
+.container{
+    padding-top: 30px;
+}
 
 footer {
     padding: 20px 0;
