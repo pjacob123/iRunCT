@@ -6,8 +6,17 @@
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
 }
+
+.vertical-center{
+    padding: 50px;
+}
+
+.table-wrapper {
+    max-height: 100vh;
+    overflow: auto;
+    display: inline-block;
+  }
 
 .carousel-caption{
     position: relative;
@@ -17,8 +26,6 @@
     text-align: left;
     padding: 20px;
 }
-
-
 
 footer {
     padding: 20px 0;
