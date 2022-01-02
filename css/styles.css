@@ -18,6 +18,7 @@
     display: inline-block;
   }
 
+  /*
 .carousel-caption{
     position: relative;
     bottom: 0;
@@ -26,7 +27,7 @@
     text-align: left;
     padding: 20px;
 }
-
+*/
 footer {
     padding: 20px 0;
 }
