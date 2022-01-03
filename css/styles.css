@@ -28,6 +28,18 @@
     padding: 20px;
 }
 */
+.carousel-caption {
+    color: white;
+    text-align: center;
+    max-width: 300px;
+    right: 0;
+    top: 1px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    height: 100%;
+    left: auto; /*Added*/
+}
+
 footer {
     padding: 20px 0;
 }
