@@ -1,24 +1,29 @@
 .tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px;
 }
 
 .row-content {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
-.vertical-center{
-    padding: 50px;
+.vertical-center {
+  padding: 50px;
 }
 
 .table-wrapper {
-    max-height: 100vh;
-    overflow: auto;
-    display: inline-block;
-  }
+  max-height: 100vh;
+  overflow: auto;
+  display: inline-block;
+}
 
-  /*
+.card {
+  display: flex;
+  align-items: center;
+}
+
+/*
 .carousel-caption{
     position: relative;
     bottom: 0;
@@ -29,17 +34,17 @@
 }
 */
 .carousel-caption {
-    color: white;
-    text-align: center;
-    max-width: 300px;
-    right: 0;
-    top: 1px;
-    background: rgba(0,0,0,0.5);
-    padding: 10px;
-    height: 100%;
-    left: auto; /*Added*/
+  color: white;
+  text-align: center;
+  max-width: 300px;
+  right: 0;
+  top: 1px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  height: 100%;
+  left: auto; /*Added*/
 }
 
 footer {
-    padding: 20px 0;
+  padding: 20px 0;
 }
